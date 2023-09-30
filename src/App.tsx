@@ -6,10 +6,12 @@ import "./App.css";
 function App() {
   const [count, setCount] = useState(0);
 
+  // import.meta.env.VITE_TMDB_API_KEY
+
   return (
     <>
       <div>
-        <p>{import.meta.env.VITE_TMDB_API_KEY}</p>
+        <p>{}</p>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
